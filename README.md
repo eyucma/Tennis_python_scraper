@@ -10,6 +10,7 @@ The `.ipynb` notebooks titled `scraper`+`x` executes above functions in a notebo
 For example `scraper_singles.ipynb` parses all relevant singles data and compiles it into the `atp_matches.csv` file.
 
 ## Example Implementations
-Examples of computations used on the collected data:
+Examples of computations used on the collected data. Note most of these requires `csv` files that need to be compiled throught the scraper:
 - `example.ipynb` shows that the average age of the top 100 male players used to decrease up until the 1980s, yet has been increasing since 1990, perhaps due to increasing medicinal knowledge, technology and the emergence of a few key players.
 - `matches_clean.ipynb` conducts analysis on the average playing time per match. Several factors are examined, such as number of sets, surface, tournament size.
+- `Logistic.ipynb` fits a simple Bradley-Terry aka logistic model on the data.
