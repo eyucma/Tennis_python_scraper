@@ -7,7 +7,7 @@ Also includes a folder `R` for work done on tennis modelling in `R` language.
 
 ## Scrapers
 The `.ipynb` notebooks titled `scraper`+`x` executes above functions in a notebook in order to convert condense and output a suitable `.csv` file in the `csvs` folder for category `x`.
-For example `scraper_singles.ipynb` parses all relevant singles data and compiles it into the `atp_matches.csv` file.
+For example `scraper_singles.ipynb` parses all relevant singles data and compiles it into the `atp_matches.csv` file. Code is based on the `deuce` package in `R` programming.
 
 ## Example Implementations
 Examples of computations used on the collected data. Note most of these requires `csv` files that need to be compiled throught the scraper:
